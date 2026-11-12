@@ -888,52 +888,6 @@ Streamlit 将启动本地 Web 应用，并通常会自动在默认浏览器中�
 
 如果浏览器没有自动打开，可根据终端中显示的 Local URL 手动访问。
 
----
-
-## 17. 仓库结构
-
-建议 GitHub 仓库采用以下结构：
-
-```text
-metamorphic-carbon-simulator/
-├── README.md
-├── README_CN.md
-├── metamorphic_carbon_simulator.py
-├── requirements.txt
-└── LICENSE
-```
-
-其中：
-
-```text
-README.md
-```
-
-为英文说明；
-
-```text
-README_CN.md
-```
-
-为中文说明；
-
-```text
-metamorphic_carbon_simulator.py
-```
-
-为主模拟程序；
-
-```text
-requirements.txt
-```
-
-记录 Python 依赖；
-
-```text
-LICENSE
-```
-
-记录代码许可协议。
 
 ---
 
@@ -1072,56 +1026,6 @@ Published numerical parameters
 Mineral stability fields
 ```
 
-代码中的教学性近似、参数化方案以及实验范围之外的外推部分已尽可能在 README 和源代码注释中明确标注。
+代码中的近似、参数化方案以及实验范围之外的外推部分已尽可能在 README 和源代码注释中明确标注。
 
 ---
-
-## 21. GitHub Issues
-
-如果发现：
-
-- 代码错误；
-- 数值稳定性问题；
-- 热力学边界问题；
-- 可视化问题；
-- 参数设置问题；
-- 文献引用问题；
-
-或希望提出新的模型功能，可以通过 GitHub Issues 提交。
-
-建议 Issue 中同时提供：
-
-```text
-Python version
-Operating system
-Streamlit version
-Parameter settings
-Error message
-Screenshot
-```
-
-以便复现问题。
-
----
-
-## 22. License
-
-本项目采用 **MIT License**。
-
-详细内容见：
-
-```text
-LICENSE
-```
-
-MIT License 允许在保留原始版权和许可声明的前提下：
-
-- 使用；
-- 复制；
-- 修改；
-- 合并；
-- 发布；
-- 分发；
-- 再许可。
-
-具体条款以仓库中的 `LICENSE` 文件为准。
